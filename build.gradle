@@ -17,6 +17,10 @@ apply plugin: 'io.spring.dependency-management'
 
 sourceCompatibility = 1.8
 
+jar {
+    baseName = 'testJenkins'
+}
+
 bootRun {
     sourceResources sourceSets.main
 }
